@@ -1,0 +1,33 @@
+body {
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav, main, footer {
+  padding:10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: tomato;
+  height:10vh
+}
+
+main {
+  background-color: lightgrey;
+  height:80vh
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: tomato;
+  height:10vh
+}
+
+li {
+  display:flex;
+}

@@ -1,0 +1,11 @@
+h1 Book site
+
+ul
+  - if items != nil
+    - items.each do |item|
+      li 
+        span #{item["title"]} by #{item["name"]}
+        form action="/books/#{item["id"]}/delete" method="post"
+          input type="submit" value="Delete #{item["title"]}"
+  - else
+    li This shop has no books, sorry
