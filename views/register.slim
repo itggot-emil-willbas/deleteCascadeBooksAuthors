@@ -1,0 +1,7 @@
+#form för registrering
+
+  - if session["error"] && session["error"]["email"]
+    span= session["error"]["email"]
+
+  input name="email" value="#{email}"
+

@@ -3,6 +3,7 @@ html lang="en"
   head
     meta charset="UTF-8"/
     meta name="viewport" content="width=device-width, initial-scale=1.0"/
+    script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
     link rel="stylesheet" href="/css/style.css"/
     title Document
   body
@@ -10,10 +11,13 @@ html lang="en"
     nav
       a href="/" Start
       a href="/books/new" Add book
-      a href=""
+      a href="/weather" Weather
       
 
     main
       ==yield
 
     footer
+    
+    script src="js/ajaxtest.js" type="text/javascript"
+    
